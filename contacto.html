@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de contacto</title>
+</head>
+<body>
+    <h1><strong>Brenda Melissa González Huertas</strong></h1>
+    <table cellspacing="10">
+        <tr>
+            <td><strong>Correo electrónico:</strong></td> 
+            <td> bmgonzalezh@uqvirtual.edu.co</td> 
+        </tr>
+        <tr>
+            <td><strong>Fecha de nacimiento:</strong></td> 
+            <td> 2 de enero de 1996</td>
+        </tr>
+        <tr>
+        <td><strong>Nacionalidad:</strong></td>
+        <td> Colombiana</td>
+        </tr>
+    </table>
+    <hr nonshade>
+    <form action="mailto:bmgonzalez@uqvirtual.edu.co" method="POST" enctype="text/plain">
+        <table cellspacing="10">
+            <tr>
+                <td><label for="">Nombre</label></td>
+                <td><input type="text" name="Nombre"></td>
+            </tr>
+            <tr>
+                <td><label for="">Correo electrónico</label></td>
+                <td><input type="email" name="Correo electrónico id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Fecha de nacimiento</label></td>
+                <td><input type="date" name="Fecha de nacimiento" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Nacionalidad</label></td>
+                <td><input type="text" name="Nacionalidad"></td>
+            </tr> 
+            <tr>
+                <td><label for="">Mensaje</label></td>
+                <td><textarea name="Mensaje" id="" cols="22" rows="7"></textarea></td>
+            </tr>
+        </table>    
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
